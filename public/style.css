@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  /* max-width: 800px;
+  max-height: 600px; */
+}
+
+body {
+  background: rgb(247, 238, 219);
+  font-family: "Andale Mono";
+  margin-top: 7.5vh;
+}
+h1 {
+  padding-top: 2vh;
+  font-size: 40px
+}
+
+header {
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 !important;
+  background: #cfc8b0;
+  height: 60px;
+  width: 100vw;
+  overflow-y: auto;
+  border-bottom: 2px solid rgb(163, 201, 75); }
+
+  header #home {
+    margin: 20px;
+    color: blue;
+  }
+
+  #all{
+    margin: 20px;
+  }
+
+  #allcampuses, #allstudents{
+    margin: 20px;
+    color: red;
+  }
+
+img {
+  height: 300px;
+}
+.main {
+     display: flex;
+     flex-flow: wrap;
+   }
+  .box {
+    display: flex;
+    flex-flow: wrap;
+    width: 20rem;
+    height: 15rem;
+    margin: 10px;
+    background: rgb(143, 143, 143);
+  }
+
+  .box img {
+    margin: 10px;
+    border: blue;
+    justify-content: flex-start;
+    height: 100px;
+
+  }
+
+  .box h3 {
+    padding-left: 3vw;
+  }
+
+  .box .bottom {
+    align-content: space-between;
+    align-content: center;
+    margin-right: 10vw;
+  }
+  .button {
+    max-height: 2em;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+
